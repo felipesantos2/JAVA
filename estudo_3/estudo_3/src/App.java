@@ -33,12 +33,7 @@ public class App {
         // System.out.printf(" O resultado final é %d + %d = %d", parcela1 , parcela2, resultado);
         System.out.printf("O resultado final é " + resultado);
 
-
-
-
-
     }
-    
     
 
 }
