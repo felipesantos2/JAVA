@@ -6,8 +6,11 @@ public class App {
 
         aluno.nome = "Felipe";
         aluno.idade = 19;
-
         aluno.ApresentaAluno();
+
+        AlunoCaracteristicas aluno2 = new AlunoCaracteristicas();
+
+        aluno2.nome = "miguel";
 
     }
 }
