@@ -6,14 +6,14 @@ public class Carro {
 
     private String placa;
 
+    public void  setModelo(String modelo) {
+        this.modelo = modelo;
+    }
 
     public String getModelo() {
         return this.modelo;
     }
 
-    public void  setModelo(String modelo) {
-        this.modelo = modelo;
-    }
     
     public int getQuantidadePortas() {
         return this.quantidadePortas;
@@ -32,11 +32,11 @@ public class Carro {
     }
     
 
-    // public void acelerar(){
-    //     System.out.println("Acelerando");
-    // }
-    // public void parar(){
-    //     System.out.println("parar");
-    // }
+    public void acelerar(){
+        System.out.println("Acelerando");
+    }
+    public void parar(){
+        System.out.println("parar");
+    }
 
 }
